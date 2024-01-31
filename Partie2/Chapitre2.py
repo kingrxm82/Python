@@ -7,6 +7,7 @@ class Rectangle:
         self.width=width
         self.height=height
         self.color=color
+        
 "On faire instance pour l'objet rectangle"
 rectangle1=Rectangle(4,3)
 rectangle2=Rectangle(4,3,"blue")

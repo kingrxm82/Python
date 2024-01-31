@@ -8,9 +8,9 @@ class Film:
     def watch(self):
         print("Bon visionnage !")
 
-# "La classe FilmCassete hérite la classe mére Film"
-# class FilmCassette(Film):
-#     pass
+"La classe FilmCassete hérite la classe mére Film"
+class FilmCassette(Film):
+    pass
 
 "On peut ajouter d'autres attributs et méthodes"
 class FilmCassette(Film):

@@ -3,12 +3,14 @@
 "Une classe abstraite est une classe qui ne peut pas être instanciée – la seule façon de l’utiliser est de créer une sous-classe"
 
 #Accédez aux méthodes des parents
+
 "Créer la classe mére"
 class Drink:
     def __init__(self,price):
         self.price=price
     def drink(self):
         print("Je ne sais pas ce que c'estn mais je bois")
+        
 "Créer la classe enfant"
 class Coffe(Drink):
     prices = {"simple":1,"serré":2,"allongé":1.5}
