@@ -18,5 +18,6 @@ class Rectangle:
         self.height=height
         self.color=color
 
+#Réferences
 "Partie 1"
 "https://openclassrooms.com/fr/courses/7150616-apprenez-la-programmation-orientee-objet-avec-python/7195400-ecrivez-une-classe-python"
