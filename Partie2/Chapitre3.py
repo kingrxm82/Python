@@ -12,7 +12,7 @@ class Film:
 # class FilmCassette(Film):
 #     pass
 
-"On peut ajouter d'autres attributs et d'autres méthode"
+"On peut ajouter d'autres attributs et méthodes"
 class FilmCassette(Film):
     def __init__(self, name):
         self.name
