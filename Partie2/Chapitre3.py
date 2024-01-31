@@ -20,8 +20,7 @@ class FilmCassette(Film):
     def rewind(self):
         print("C'et long à rembobiner")
         self.magnetic_tape=True
-
-        
+     
 #Réferences
 "Partie 2"
 "https://openclassrooms.com/fr/courses/7150616-apprenez-la-programmation-orientee-objet-avec-python/7196232-ecrivez-une-sous-classe-en-python"
